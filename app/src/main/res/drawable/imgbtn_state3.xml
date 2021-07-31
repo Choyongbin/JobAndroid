@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/btnactivated2"
+        android:state_checked="true" />
+    <item android:drawable="@drawable/btnpressed2"
+        android:state_pressed="true" />
+    <item android:drawable="@drawable/btndefault2"
+        android:state_checked="false"/>
+
+</selector>

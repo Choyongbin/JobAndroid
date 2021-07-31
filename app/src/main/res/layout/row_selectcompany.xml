@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:clickable="true"
+    >
+
+    <CheckedTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginVertical="10dp"
+        android:id="@+id/companyName"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:checked="false"
+        android:textColor="@color/selector_text4"
+        android:background="@drawable/imgbtn_state3"
+        android:text="dd"
+        />
+
+</LinearLayout>
